@@ -34,14 +34,28 @@ h2 {
 
 h3 {
     font-size: 1.2rem;
-    color: #e9075;
+    color:#0e6d03e5;
     margin-top: 12px;
     margin-bottom: 6px;
 }
 
 .img-box {
-    text-align: center;
-    margin: 15px 0; 
+    position:relative; 
+    width: 405px;     
+    margin: 120px auto;
+}
+.imagem-torta {
+    border-radius: 350px;
+    width: 405px;
+    height: 400px;
+}
+.imagem-moldura {
+    position: absolute; 
+    top: -100px;         
+    left: -100px;        
+    width: calc(100% + 130px); 
+    height: calc(100% + 180px);
+    pointer-events: none;
 }
 
 .info-extra {
