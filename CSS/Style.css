@@ -2,7 +2,7 @@ body {
     background-color: #ffe3e9;
     font-family: cursive;
     color: rgba(0, 0, 0, 0.808);
-    margin: 2;
+    margin: 0;
     padding: 30px;
 }
 
@@ -13,12 +13,12 @@ body {
     padding: 30px;
     border: 2px solid #f0bcce; 
     border-radius: 20px;
-    box-shadow: 0 4px 12px rgba(114, 11, 49, 0.411);
+    box-shadow: 0 10px 12px rgba(94, 7, 39, 0.411);
 }
 
 h1 {
     font-size: 2.3rem;
-    text-shadow: 0 6px 12px rgba(138, 0, 48, 0.603);
+    text-shadow: 0 6px 12px rgba(219, 106, 146, 0.603);
     color: #eb3b81;
     text-align: center;
     margin-bottom: 30px;
@@ -34,27 +34,31 @@ h2 {
 
 h3 {
     font-size: 1.2rem;
-    color:#0e6d03e5;
+    color: #0e6d03e5;
     margin-top: 12px;
     margin-bottom: 6px;
 }
 
 .img-box {
-    position:relative; 
-    width: 405px;     
-    margin: 120px auto;
+    position: relative; 
+    width: 350px;       
+    height: 350px;
+    margin: 40px auto;
 }
+
 .imagem-torta {
-    border-radius: 350px;
-    width: 405px;
-    height: 400px;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
+
 .imagem-moldura {
     position: absolute; 
-    top: -100px;         
-    left: -100px;        
-    width: calc(100% + 130px); 
-    height: calc(100% + 180px);
+    top: -40px;         
+    left: -45px;        
+    width: calc(100% + 75px); 
+    height: calc(100% + 60px);
     pointer-events: none;
 }
 
@@ -75,4 +79,3 @@ h3 {
     border: 2px dashed #0d6d03;
     margin-bottom: 20px;
 }
-
